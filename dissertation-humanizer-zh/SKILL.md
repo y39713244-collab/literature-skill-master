@@ -1,6 +1,6 @@
 ---
 name: dissertation-humanizer-zh
-description: Chinese dissertation and thesis writing skill for polishing academic prose, reducing obvious AI-generated writing traces, strengthening argument logic, and adding high-quality recent literature and China-relevant policy context. Use when editing Chinese undergraduate, master's, doctoral, proposal, literature review, abstract, introduction, discussion, conclusion, or defense text that must preserve facts, citations, disciplinary terms, data, and original intent while becoming more natural, rigorous, locally grounded, and publication-aware.
+description: Chinese dissertation and thesis writing skill for polishing academic prose, reducing obvious AI-generated writing traces, strengthening argument logic, and adding high-quality recent literature and China-relevant policy context. Use when editing or drafting Chinese undergraduate, master's, doctoral, proposal, literature review, abstract, introduction, discussion, conclusion, or defense text that must preserve facts, citations, disciplinary terms, data, and original intent while becoming more natural, rigorous, locally grounded, and publication-aware. Also use when writing or revising section "1.1 课题背景与研究意义" in an applied engineering thesis without turning it into a literature review.
 ---
 
 # Dissertation Humanizer Zh
@@ -46,6 +46,8 @@ For Chinese dissertations, "natural" means clear, restrained, precise, and reada
 
 When the user asks to add references, deepen scholarship, or make the text suitable for a dissertation, read `references/evidence-and-policy.md`.
 
+When the user asks to write, revise, summarize the method for, or imitate the style of section `1.1 课题背景与研究意义`, read `references/background-significance-1-1.md` before drafting. This is especially important when the section should follow a Chinese engineering master's thesis style and avoid becoming `国内外研究现状`.
+
 Use the following hierarchy:
 
 1. Recent high-quality peer-reviewed literature from 2021-2026, preferably top journals, JCR Q1/Q2 journals, high-impact society journals, Nature/Science/Cell family journals, or field-recognized venues. Use pre-2021 literature only when it is a classic foundation, a still-authoritative policy document, a standard, or a very high-impact source that the field continues to rely on.
@@ -89,4 +91,5 @@ Keep explanations concise unless the user asks for detailed editorial notes.
 ## References
 
 - Read `references/evidence-and-policy.md` for source-selection rules, recent high-quality literature examples, and China-context guidance.
+- Read `references/background-significance-1-1.md` when drafting or revising `1.1 课题背景与研究意义`, especially for engineering, robotics, exoskeleton, medical device, aerospace, eldercare, fitness, rehabilitation, or intelligent equipment theses.
 - Read `references/source-image-text.md` only when the original image-derived prompt inventory is needed.
