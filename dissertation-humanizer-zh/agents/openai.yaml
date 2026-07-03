@@ -1,0 +1,6 @@
+interface:
+  display_name: "大论文人味润色"
+  short_description: "中文大论文降AI痕迹并保留学术严谨表达"
+  default_prompt: "Use $dissertation-humanizer-zh to polish this Chinese dissertation passage while preserving academic meaning."
+policy:
+  allow_implicit_invocation: true
