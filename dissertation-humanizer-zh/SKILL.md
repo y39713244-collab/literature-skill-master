@@ -1,88 +1,92 @@
 ---
 name: dissertation-humanizer-zh
-description: Chinese dissertation and thesis prose polishing skill for reducing obvious AI-generated writing traces while preserving academic rigor, facts, technical terms, citations, argument logic, and original intent. Use when editing Chinese undergraduate, master's, doctoral, journal-style, proposal, literature review, chapter draft, abstract, introduction, discussion, conclusion, or defense text to make it more natural, readable, precise, and human-written without making it colloquial or non-academic.
+description: Chinese dissertation and thesis writing skill for polishing academic prose, reducing obvious AI-generated writing traces, strengthening argument logic, and adding high-quality recent literature and China-relevant policy context. Use when editing Chinese undergraduate, master's, doctoral, proposal, literature review, abstract, introduction, discussion, conclusion, or defense text that must preserve facts, citations, disciplinary terms, data, and original intent while becoming more natural, rigorous, locally grounded, and publication-aware.
 ---
 
 # Dissertation Humanizer Zh
 
-Use this skill to polish Chinese dissertation prose so it remains academic, accurate, and logically sound while reading less mechanical and less AI-like.
+Use this skill to revise Chinese dissertation prose in two passes: first improve the language, then strengthen the scholarship. The result should read like careful academic writing by a real researcher, not like a generated summary or a pile of decorative citations.
 
 ## Core Principle
 
-Preserve meaning first. Keep facts, technical terms, variables, citations, data, research claims, chapter logic, and disciplinary tone intact. Improve expression only where wording, rhythm, structure, or unnecessary formulaic phrasing makes the text sound mechanical.
+Preserve meaning before improving style. Keep facts, technical terms, variables, citations, data, research claims, chapter logic, and disciplinary tone intact.
 
-Do not over-humanize academic prose into casual writing. For dissertations, "natural" means clear, restrained, specific, and readable, not chatty.
+For Chinese dissertations, "natural" means clear, restrained, precise, and readable. Do not turn academic prose into casual speech. Do not hide weak evidence behind smooth language. Do not invent sources, policy statements, data, or conclusions.
 
-## Workflow
+## Default Workflow
 
-1. Read the passage once for thesis meaning: research object, method, claim, evidence, relation between sentences, and required formality.
-2. Mark AI-like patterns: empty transition words, excessive comma chains, rigid "first/second/third" structures, repeated near-synonyms, vague intensifiers, stacked abstract nouns, over-neat paragraph templates, and unnecessary summaries.
-3. Rewrite at the smallest useful scope. Prefer sentence-level and paragraph-level repair over total rewriting.
-4. Preserve academic terms. If a term is standard in the field, keep it. Replace only generic filler, promotional wording, or vague boilerplate.
-5. Read the result aloud mentally. It should flow, vary in sentence length, and sound like a careful researcher wrote it.
-6. Check that no evidence, conclusion, qualifier, citation, or logical relation was lost.
+1. Diagnose the passage: identify the research object, claim, evidence, method, and chapter function.
+2. Polish the language first: repair awkward syntax, repeated wording, mechanical transitions, overlong comma chains, and stiff paragraph rhythm.
+3. Recheck meaning: confirm that no claim, qualifier, citation, statistic, or disciplinary term has changed.
+4. Strengthen evidence only after the prose is clear: add or suggest high-quality recent sources, policy documents, standards, or authoritative Chinese context where the argument actually needs support.
+5. Integrate references into the argument, not into a citation list. Each added source must support a specific claim, contrast, method choice, policy background, or research gap.
+6. Flag uncertainty. If a needed source cannot be verified, say so and provide a search direction instead of fabricating a citation.
 
-## Rewrite Rules
+## Language Polishing Rules
 
-### Keep Academic, Reduce AI Traces
+### Reduce AI Traces Without Losing Academic Tone
 
-- Simplify over-polished wording, but do not add slang, jokes, or casual filler.
-- Remove obvious AI service phrases such as "值得注意的是", "需要指出的是", "综上所述", "让我们", "我们来", when they do not add meaning.
-- Avoid formulaic ordering words such as "首先、其次、再次、最后" unless the passage truly depends on sequence.
-- Replace repetitive "一是、二是、三是" structures with varied transitions, merged sentences, or topic-based phrasing.
-- Avoid excessive "的、了、到、过、会、有、能、把" chains when they make the sentence loose or padded.
-- Merge comma-heavy sentences where the logic belongs together; split when the sentence carries too many claims.
-- Delete logical connector clutter when the relation is already obvious.
+- Remove empty signposting such as "首先、其次、最后、综上所述、值得注意的是、需要指出的是" when it does not add logic.
+- Replace rigid list structures with topic-based transitions, causal links, contrast, or direct continuation.
+- Avoid repeated near-synonyms such as "承认和肯定" unless both terms are analytically distinct.
+- Reduce abstract noun piles, especially repeated "-性" expressions like "系统性、精确性、复合性、可积累性".
+- Merge sentences only when the logic is unified; split overloaded sentences when one sentence carries too many claims.
+- Keep necessary academic connectors, but delete connector clutter where the relation is already obvious.
+- Vary sentence length. Use short sentences for claims and longer sentences for explanation, evidence, or limitation.
 
-### Improve Precision And Readability
+### Make The Prose More Researcher-Like
 
-- Replace bland words with more precise, discipline-appropriate expressions.
-- Prefer concrete verbs over abstract noun stacks.
-- Use shorter sentences for key claims and longer sentences for necessary explanation.
-- Let paragraphs vary: some can begin directly with evidence, some with a claim, some with a contrast or problem.
-- If the original has too-perfect parallelism, loosen it slightly while keeping the argument clear.
-- If a sentence sounds written for readers rather than by the author, recast it as the researcher's own analysis.
+- Prefer concrete verbs and precise disciplinary wording over vague intensifiers.
+- Let paragraphs vary. Do not force every paragraph into "opening summary - explanation - closing summary".
+- Add restrained judgment only where the thesis genre allows it: "较为明显", "在一定程度上", "可能与……有关", "仍需结合……理解".
+- Avoid promotional words, exaggerated certainty, and emotional adjectives unless the field and evidence justify them.
+- Keep the author's analytical stance visible: the writing should sound like a researcher advancing an argument, not a model completing a template.
 
-### Add Human Texture Carefully
+## Evidence And Citation Rules
 
-- Add mild human-like rhythm only where allowed by academic context: "这一点并不难理解", "更准确地说", "在这一意义上", "这也解释了为什么".
-- Use restrained judgment where the thesis genre allows it: "较为明显", "在一定程度上", "可能与……有关", "这一解释仍需结合……理解".
-- Allow slight asymmetry in sentence structure. Dissertation prose does not need every paragraph to have opening summary, middle explanation, and closing summary.
-- Avoid making every sentence balanced, complete, and polished in the same way; real academic writing has changes in density.
+When the user asks to add references, deepen scholarship, or make the text suitable for a dissertation, read `references/evidence-and-policy.md`.
 
-### Remove Repetition
+Use the following hierarchy:
 
-- Do not place near-synonyms side by side, such as "承认和肯定", unless both are analytically distinct.
-- Do not repeat the same causal word in close succession, such as using "因此" several times in one paragraph.
-- Do not repeat the same point with different wording. Keep the stronger version and delete the weaker one.
-- Avoid piling "-性" nouns such as "精确性、及时性、复合性、系统性、可积累性、实质性".
-- If the same subject appears in consecutive sentences, combine or vary the sentence pattern.
+1. Recent high-quality peer-reviewed literature from the last five years, preferably top journals, JCR Q1/Q2 journals, high-impact society journals, Nature/Science/Cell family journals, or field-recognized venues.
+2. Authoritative Chinese policy documents, national plans, official regulations, standards, white papers, and ministry-level guidance when the topic involves China, governance, education, technology, public policy, or industry application.
+3. Chinese academic sources only when they are credible and relevant: CSSCI, CSCD, Peking University Core, authoritative university journals, recognized think-tank reports, or official statistical yearbooks.
 
-## Dissertation-Specific Guardrails
+Do not use low-quality sources to pad citations. Avoid predatory journals, unverified conference abstracts, suspicious special issues, citation farms, paper-mill-like articles, non-authoritative blog posts, and sources with no clear author, venue, date, or evidence base.
+
+## China Context Rules
+
+- Match the argument to Chinese institutional reality: policy hierarchy, governance language, education system, industry setting, regional differences, and official terminology.
+- Prefer official Chinese documents for policy claims. Use international literature to frame theory, mechanism, method, and comparative evidence.
+- Do not import foreign assumptions mechanically. Explain how a concept applies, does not apply, or needs adjustment in the Chinese context.
+- When discussing AI, data, governance, education, or platforms in China, consider the principles of lawful use, data security, personal information protection, transparency, accuracy, reliability, development-security balance, and responsible innovation.
+
+## Dissertation Guardrails
 
 - Keep citations and reference markers exactly unless the user asks to change citation style.
 - Keep equations, statistical values, sample sizes, dates, names, and terminology unchanged.
-- Do not invent evidence, examples, references, or results to make the prose smoother.
+- Do not invent evidence, examples, references, or results.
 - Do not weaken a precise claim into vague prose, and do not strengthen a cautious claim into certainty.
-- When polishing methodology, preserve procedure order and variable relationships.
-- When polishing literature review, preserve attribution: who argued what, in which context, and how it relates to the thesis.
-- When polishing conclusion or discussion, distinguish findings, interpretation, limitation, and outlook.
+- In methodology sections, preserve procedure order, variable relationships, and reproducibility details.
+- In literature reviews, preserve attribution: who argued what, in which context, and how it relates to the thesis.
+- In discussion and conclusion sections, distinguish findings, interpretation, limitation, implication, and outlook.
 
 ## Output Format
 
-When the user asks only for rewriting, provide:
+When rewriting only:
 
 1. Revised text.
-2. Brief change summary if helpful.
+2. Brief change summary if useful.
 
-When the user asks for diagnosis or teaching, provide:
+When strengthening scholarship:
 
 1. Revised text.
-2. Main problems found.
-3. Specific editing principles applied.
+2. Added or recommended evidence, with source quality noted.
+3. Remaining citation gaps or verification cautions.
 
-Keep explanations short unless the user asks for detailed editorial notes.
+Keep explanations concise unless the user asks for detailed editorial notes.
 
-## Reference
+## References
 
-For the extracted source prompts and the full rule inventory summarized from the user's images, read `references/source-image-text.md` when needed.
+- Read `references/evidence-and-policy.md` for source-selection rules, recent high-quality literature examples, and China-context guidance.
+- Read `references/source-image-text.md` only when the original image-derived prompt inventory is needed.

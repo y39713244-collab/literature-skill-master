@@ -8,6 +8,8 @@ This repository contains a clean Codex skill package for Chinese dissertation an
 
 The skill helps polish Chinese undergraduate, master's, doctoral, proposal, literature review, abstract, introduction, discussion, and conclusion text. It reduces obvious AI-generated writing traces while preserving academic rigor, facts, citations, technical terms, data, and argument logic.
 
+It also includes rules for strengthening dissertation evidence with recent high-quality literature and China-relevant authoritative documents, while avoiding low-quality or predatory sources.
+
 ## Install
 
 Clone or download this repository, then copy the skill folder into your Codex skills directory:
@@ -24,6 +26,7 @@ After copying, restart Codex so the skill can be loaded.
 dissertation-humanizer-zh/
   SKILL.md
   agents/openai.yaml
+  references/evidence-and-policy.md
   references/source-image-text.md
 ```
 
