@@ -4,11 +4,11 @@ Use this reference when the task asks to add literature, deepen the argument, up
 
 ## Source Selection Standard
 
-Prefer recent sources from the last five years. Use older sources only for foundational theory, classic definitions, established methods, or policy documents that remain authoritative.
+Prefer sources from 2021-2026. Use pre-2021 sources only when they are foundational theory, classic definitions, established methods, still-authoritative policy documents or standards, or exceptionally high-impact literature that the field continues to rely on.
 
 Prioritize:
 
-- Top international journals and reputable publisher families: Nature, Science, Cell, Lancet, NEJM, JAMA, IEEE, ACM, Elsevier, Springer Nature, Wiley, Oxford, Cambridge, Taylor & Francis, Sage, and recognized society journals.
+- Top international journals and reputable publisher families: Nature, Science, Cell, Lancet, NEJM, JAMA, IEEE, ACM, Elsevier, Springer Nature, Wiley, Oxford, Cambridge, Taylor & Francis, Sage, and recognized society journals. For ordinary literature updates, keep the publication year within 2021-2026; for earlier sources, require a clear reason such as exceptional impact factor, classic status, or unavoidable foundational relevance.
 - Field quality indicators: JCR Q1/Q2, high-impact factor, ABS/AJG/FT50 for management fields, CCF A/B for computer science where relevant, SSCI/SCI/SCIE/A&HCI indexing, and strong disciplinary reputation.
 - Chinese authoritative sources: official central or ministry documents, national plans, regulations, standards, statistical yearbooks, CSSCI, CSCD, Peking University Core, authoritative university journals, and reputable think-tank reports.
 
@@ -54,6 +54,8 @@ High-authority examples:
 - 国务院：《新一代人工智能发展规划》，2017年。Use for national AI development strategy and long-term policy background.
 - 教育部：《高等学校人工智能创新行动计划》，2018年。Use for higher-education AI innovation, talent training, and university research context.
 - 中共中央、国务院 and ministry-level documents on education modernization, digital China, data governance, scientific ethics, research integrity, and degree quality assurance when directly relevant.
+
+For policy and planning documents, prefer documents issued or still actively guiding practice during 2021-2026. Older documents may be used when they remain the governing framework, such as major national plans, laws, standards, or long-term strategic outlines.
 
 Do not cite policy documents as if they were empirical evidence. Use them for normative background, regulatory framing, institutional context, and policy rationale.
 

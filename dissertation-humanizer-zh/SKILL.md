@@ -48,7 +48,7 @@ When the user asks to add references, deepen scholarship, or make the text suita
 
 Use the following hierarchy:
 
-1. Recent high-quality peer-reviewed literature from the last five years, preferably top journals, JCR Q1/Q2 journals, high-impact society journals, Nature/Science/Cell family journals, or field-recognized venues.
+1. Recent high-quality peer-reviewed literature from 2021-2026, preferably top journals, JCR Q1/Q2 journals, high-impact society journals, Nature/Science/Cell family journals, or field-recognized venues. Use pre-2021 literature only when it is a classic foundation, a still-authoritative policy document, a standard, or a very high-impact source that the field continues to rely on.
 2. Authoritative Chinese policy documents, national plans, official regulations, standards, white papers, and ministry-level guidance when the topic involves China, governance, education, technology, public policy, or industry application.
 3. Chinese academic sources only when they are credible and relevant: CSSCI, CSCD, Peking University Core, authoritative university journals, recognized think-tank reports, or official statistical yearbooks.
 
